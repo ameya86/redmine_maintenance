@@ -1,0 +1,16 @@
+div#maintenance_notice {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 16px;
+  width: 100%;
+}
+
+div#maintenance_notice div.flash {
+  margin: 0px;
+}
+
+div#wrapper {
+  margin-top: 26px;
+}
+

@@ -1,0 +1,16 @@
+<p>
+  <label for="settings_maintenance"><%= l(:field_maintenance_on) %></label>
+  <%= hidden_field_tag('settings[maintenance]', 0, :id => nil) %>
+  <%= check_box_tag('settings[maintenance]', 1, '1' == @settings['maintenance']) %>
+</p>
+
+<p>
+  <label><%= l(:field_title) %></label>
+  <%= text_field_tag('settings[title]', @settings['title'], :size => 50) %>
+</p>
+<p>
+  <label><%= l(:label_message_plural) %></label>
+  <%= text_area_tag('settings[message]', @settings['message'], :cols => 50, :rows => '20') %>
+</p>
+
+<%= wikitoolbar_for 'settings_message' %>

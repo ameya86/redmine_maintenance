@@ -1,0 +1,28 @@
+= Maintenance
+
+メンテナンスモードを提供するプラグインです。
+メンテナンスモードになると、管理者以外は操作できなくなります。
+
+CentOS6.2＋MySQL5.1＋Apache2.2＋Passenger＋Redmine1.4.1＋Firefox12.0
+の環境でのみ動作確認を取っています。
+
+
+== インストール
+
+1. RAILS_ROOT/vendor/pluginsに配置する。
+
+2. Redmineを再起動する。
+
+
+== アンインストール
+
+1. RAILS_ROOT/vendor/pluginsから削除する。
+
+2. Redmineを再起動する。
+
+
+== 更新履歴
+
+=== verion 0.0.1
+
+リリース
