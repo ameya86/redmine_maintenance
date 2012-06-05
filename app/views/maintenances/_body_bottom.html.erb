@@ -1,3 +1,4 @@
+<% if '1' == Setting.plugin_redmine_maintenance['maintenance'] %>
 <div id="maintenance_notice">
   <div class="flash warning">
     <%= h(Setting.plugin_redmine_maintenance['title']) %>
@@ -9,3 +10,4 @@
     <%= h(Setting.plugin_redmine_maintenance['title']) %>
   </div>
 </div>
+<% end %>

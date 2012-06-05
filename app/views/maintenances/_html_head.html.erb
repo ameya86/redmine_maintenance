@@ -1,1 +1,1 @@
-<%= stylesheet_link_tag('maintenance.css', :plugin => 'redmine_maintenance') %>
+<%= stylesheet_link_tag('maintenance.css', :plugin => 'redmine_maintenance') if '1' == Setting.plugin_redmine_maintenance['maintenance'] %>

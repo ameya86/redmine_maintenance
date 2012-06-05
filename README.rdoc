@@ -23,6 +23,10 @@ CentOS6.2＋MySQL5.1＋Apache2.2＋Passenger＋Redmine1.4.1＋Firefox12.0
 
 == 更新履歴
 
-=== verion 0.0.1
+=== version 0.0.2
+
+メンテナンスモードがオフでも警告欄が消えないミスを修正
+
+=== version 0.0.1
 
 リリース

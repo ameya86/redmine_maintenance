@@ -6,7 +6,7 @@ Redmine::Plugin.register :redmine_maintenance do
   name 'Redmine Maintenance plugin'
   author 'OZAWA Yasuhiro'
   description 'Maintenance mode'
-  version '0.0.1'
+  version '0.0.2'
   url 'https://github.com/ameya86/redmine_maintenance'
   author_url 'http://blog.livedoor.jp/ameya86/'
 
